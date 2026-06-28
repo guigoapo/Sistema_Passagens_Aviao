@@ -1,0 +1,25 @@
+___________________________________________________
+
+Instruções de compilação/execução
+
+___________________________________________________
+
+Linux (ou wsl)
+
+Compilar:
+javac -cp ".:mysql.jar:pdf.jar" *.java
+
+Executar:
+java -cp ".:mysql.jar:pdf.jar" Main
+
+___________________________________________________
+
+Windows
+
+Compilar:
+javac -cp ".;mysql.jar;pdf.jar" *.java
+
+Executar:
+java -cp ".;mysql.jar;pdf.jar" Main
+
+___________________________________________________
