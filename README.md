@@ -50,22 +50,22 @@ Siga os comandos abaixo de acordo com o seu sistema operacional:
 LINUX (OU WSL)
 ----------------------------------------------------------------------
 Compilar:
-    ```bash
+
     javac -cp ".:mysql.jar:pdf.jar" *.java
 
 Executar:
-     ```bash
+
     java -cp ".:mysql.jar:pdf.jar" Main
 
 ----------------------------------------------------------------------
 WINDOWS
 ----------------------------------------------------------------------
 Compilar:
-     ```bash
+
     javac -cp ".;mysql.jar;pdf.jar" *.java
 
 Executar:
-     ```bash
+
     java -cp ".;mysql.jar;pdf.jar" Main
 
 ======================================================================
