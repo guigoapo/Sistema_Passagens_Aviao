@@ -42,7 +42,7 @@ Funcionalidades principais:
 Para compilar e rodar o projeto, abra o terminal e navegue até a 
 pasta raiz dos arquivos fontes:
 
-    cd GUIAviao/src
+    cd src
 
 Siga os comandos abaixo de acordo com o seu sistema operacional:
 
@@ -50,18 +50,18 @@ Siga os comandos abaixo de acordo com o seu sistema operacional:
 LINUX (OU WSL)
 ----------------------------------------------------------------------
 Compilar:
-    javac -cp ".:mysql.jar:pdf.jar" *.java
+    ```javac -cp ".:mysql.jar:pdf.jar" *.java```
 
 Executar:
-    java -cp ".:mysql.jar:pdf.jar" Main
+    ```java -cp ".:mysql.jar:pdf.jar" Main```
 
 ----------------------------------------------------------------------
 WINDOWS
 ----------------------------------------------------------------------
 Compilar:
-    javac -cp ".;mysql.jar;pdf.jar" *.java
+    ```javac -cp ".;mysql.jar;pdf.jar" *.java```
 
 Executar:
-    java -cp ".;mysql.jar;pdf.jar" Main
+    ```java -cp ".;mysql.jar;pdf.jar" Main```
 
 ======================================================================
